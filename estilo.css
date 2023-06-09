@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2? family= Playfair+Display:ital,wght@0,600;1,900 & display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+    background-color: #000000;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #171717;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar {
+    display: flex;
+    margin-right: 10px;
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+}
+
+.navbar a {
+    display: block;
+    padding: 20px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: "bebas neue";
+}
+
+.navbar a:hover {
+    background: #3e3e3e;
+}
+
+.header {
+    padding-top: 100px;
+    padding-left: 63px;
+    padding-right: 63px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#fff;
+
+}
+
+.title {
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+
+.subt {
+    font-size: 60px;
+    color:#ff0000;
+    padding: 0 100px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #000000;
+    color: #fff;
+    text-decoration: none;
+    background: #000000;
+}
+
+.btn-home {
+    display: flex;
+}
+
+.btn-home a {
+    margin: 0 10px;
+}
+
+.content{
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+   
+}
+.title2 {
+    margin-bottom: 40px;
+    font-size: 60px;
+    text-transform: uppercase;
+    color: #fff;
+    padding-top: 50px;
+    font-family: 'Playfair Display', serif;
+}
+.subt2{
+    color:#fff;
+    font-size: 40px;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    background-color: #370000;
+}
+.footer{
+    background-color: #000000;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #fff;
+    
+}
+.footertext{   
+     color: #fff;
+     padding-top: 10px;
+     font-family: "bebas neue";
+}
+.parrafos{
+    color: #fff;
+    font-size: 25px;
+    background-color: #370000;
+    padding:20px 20px;
+    margin-top: 0px;
+}
+.links a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:#fff;
+    font-size: 20px;
+    border: 3px solid #fff;
+    padding: 3px;
+
+}
+.links{
+    padding:10px 10px;
+}
+.ubic{
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 20px 20px;
+    color: #fff;
+    font-size: 40px;
+}
+.map{
+    width: 800px;
+    height: 500px;
+    border-radius: 10%;
+}
+.box{
+    border: 1px solid #fff;
+    background: #000000;
+    width: 80px;
+    height: 40px;
+    text-align: center;
+    margin: 10px;
+    float: left;
+    justify-content: center;
+    padding: 20px;
+}
+.box a{
+    text-decoration: none;
+    color: #fff;
+    
+}
+.container{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
+.tel{
+    color:#fff ;
+    font-size: 35px;
+    padding: 20px;
+}
+.box2{
+    border: 1px solid #fff;
+    background: #000000;
+    width: 270x;
+    height: 350px;
+    text-align: center;
+    margin: 10px;
+    float: left;
+    justify-content: center;
+    padding: 0px;
+}
+.box2 img{
+    color: #fff;
+    height: 350px;
+    width: 270px;
+}
+.container2{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
+.precios{
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 5px;
+    margin: 5px;
+}
+.ofert{
+    color: #ff0000;
+    border: 1px solid #fff;
+    padding: 5px;
+    margin: 5px;
+}
